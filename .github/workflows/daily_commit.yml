@@ -2,7 +2,7 @@ name: Nihal's Daily Commit
 
 on:
   schedule:
-    - cron: '50 15 * * *'  # Runs every day at 15:50 UTC
+    - cron: '55 15 * * *'  # Runs every day at 15:53 UTC
 
 jobs:
   commit:
@@ -32,6 +32,6 @@ jobs:
         git config --global user.email "nsk99isc@gmail.com"
         git add "$FILE"
         git commit -m "Hello, my name is Nihal Kumar Sharma nice to meet you"
-        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/nihalritgithub/Ai_Assign.git
+        git push origin main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
