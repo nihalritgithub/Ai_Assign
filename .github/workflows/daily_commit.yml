@@ -31,7 +31,7 @@ jobs:
         git config --global user.name "Nihal Kumar SHarma"
         git config --global user.email "nsk99isc@gmail.com"
         git add "$FILE"
-        git commit -m "Hello, my name is Nihal Kumar SHarma nice to meet you"
-        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/nihalritgithub/mean-commit.git
+        git commit -m "Hello, my name is Nihal Kumar Sharma nice to meet you"
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/nihalritgithub/Ai_Assign.git
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
